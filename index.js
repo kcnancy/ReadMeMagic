@@ -1,5 +1,6 @@
 const inquirer = require("inquirer")
 const fs = require("fs");
+fs.writeFile(Readme.md, data) {}
 
 inquirer
 .prompt([
