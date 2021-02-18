@@ -5,15 +5,16 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require ("util");
 const generateReadme = require("./utils/generateReadme");
+const { stringify } = require("querystring");
 const writeFileAsync = util.promisify(fs.writeFile);
 
 
 // TODO: Create an array of questions for user input
 
 const questions = [
+    
+       
 
-inquirer
-.prompt([
     {
         name: "username",
         type: "input",
@@ -32,7 +33,7 @@ inquirer
     {
         name: "description",
         type: "input",
-        message: "Describe your project: ",
+        message: "Briefly describe your project: ",
 },
 {
         name: "installation",
@@ -57,28 +58,31 @@ inquirer
     {
         name: "license",
         type: "list",
-        message: "Choose the license,",
-        choices: ["MIT", "Apache", "Academic", "GNU", "ISC", "Mozilla", "Open", "None" ]
+        message: "Choose the license for your project:",
+        choices: ["MIT", "Apache", "GNU", "Mozilla", "None" ]
 },
-])
-];
 
+    
+]
 
 
 // TODO: Create a function to write README file
+function writeToFile (data) {
+    const Markdown = generateReadme (data)
+    fs.writeFileSync ("./output/Readme.md", Markdown, error =>{
+        if (error) console.log(error)
+        
+    })
+}
 
-const writeToFile = (fileName, data) => {
-    fs.writeToFile(fileName, data, (err) =>
-        err ? console.error(err) : console.log(success)
-        );
-    
- // Write new README.md to output directory
-
-        fs.writeFile('./output/README.md', generateReadme(data));
-        console.log('Successfully wrote to README.md');
-       
-    }
   
+ // TODO: Create a function to initialize app
+function init() {inquirer.prompt(questions).then(data => {
+    writeToFile(data)
+})}
+ 
 
 // Function call to initialize app
 init();
+    
+
