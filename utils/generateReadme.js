@@ -4,7 +4,9 @@ function generateReadme(answers) {
   return `
 <h1 align="center">${answers.project_title} </h1>
 ======================================
+
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
+
 ## Description
 ${answers.description}
 ## Table of Contents
@@ -20,10 +22,11 @@ ${answers.installation}
 ## Usage
 ${answers.usage}
 ## License
+
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
 <br />
-This application is covered by the ${answers.license} license. <br />
-[${answers.license}](https://opensource.org/licenses/${answers.license})
+This application is covered by the ${answers.license} license. Details for this 
+license can be found at [${answers.license}](https://opensource.org/licenses/)  
 
 ## Contributing
 ${answers.contribution}

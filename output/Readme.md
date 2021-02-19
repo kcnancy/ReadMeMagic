@@ -1,9 +1,11 @@
 
-<h1 align="center">NOthing </h1>
+<h1 align="center">ldfkja </h1>
 ======================================
-![badge](https://img.shields.io/badge/license-None-brightgreen)<br />
+
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+
 ## Description
-something
+ladsfj
 ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -13,24 +15,25 @@ something
   - [Tests](#tests)
   - [Questions](#questions)
 ## Installation
-everything
+asldfaj
 ## Usage
-alwasy
+alsdfj
 ## License
-![badge](https://img.shields.io/badge/license-None-brightgreen)
+
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
-This application is covered by the None license. <br />
-[None](https://opensource.org/licenses/None)
+This application is covered by the MIT license. Details for this 
+license can be found at [MIT](https://opensource.org/licenses/)  
 
 ## Contributing
-never
+alsdfj
 ## Tests
-maybe<br />
+lsdfkj<br />
 <br />
 
 ## Questions
 
-Find me on GitHub: [kcnancy](https://github.com/kcnancy)<br />
+Find me on GitHub: [kcnanc](https://github.com/kcnanc)<br />
 <br />
-Email me with any questions: nljljljl@123.com<br /><br />
+Email me with any questions: lskdfa<br /><br />
     

@@ -13,9 +13,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
 
 const questions = [
     
-       
-
-    {
+           {
         name: "username",
         type: "input",
         message: "What is your GitHub username? ",
@@ -59,7 +57,7 @@ const questions = [
         name: "license",
         type: "list",
         message: "Choose the license for your project:",
-        choices: ["MIT", "Apache", "GNU", "Mozilla", "None" ]
+        choices: ["MIT", "Apache", "GNU", "Mozilla"]
 },
 
     
