@@ -1,11 +1,11 @@
 
-<h1 align="center">ldfkja </h1>
+<h1 align="center">ReadMe Generator </h1>
 ======================================
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
 ## Description
-ladsfj
+Create a simple readme with user input
 ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -15,9 +15,9 @@ ladsfj
   - [Tests](#tests)
   - [Questions](#questions)
 ## Installation
-asldfaj
+install npm and fork this repo
 ## Usage
-alsdfj
+node index.js in terminal
 ## License
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
@@ -26,14 +26,14 @@ This application is covered by the MIT license. Details for this
 license can be found at [MIT](https://opensource.org/licenses/)  
 
 ## Contributing
-alsdfj
+None at this time
 ## Tests
-lsdfkj<br />
+NA<br />
 <br />
 
 ## Questions
 
-Find me on GitHub: [kcnanc](https://github.com/kcnanc)<br />
+Find me on GitHub: [kcnancy](https://github.com/kcnancy)<br />
 <br />
-Email me with any questions: lskdfa<br /><br />
+Email me with any questions: njmcbride224@gmail.com<br /><br />
     
