@@ -23,7 +23,7 @@ This project needs to meet the following criteria:
 Once a GitHub repo is established npm.init needs to be run in the terminal, this will establish the package.json file in the repo. You will then need to install the inquirer and utils npm packages. You will also need to create an output subfolder, this is where the generated ReadMe will be written to after executing this file. 
 
 ## Usage
-To use this project to create a Readme you must be in the terminal for the ReadMeMagic folder. In the terminal type node index.js and enter. Respond to each prompted question, to select the License use the arrow keys to highlight the appropriate license and hit enter. The generated ReadMe will be located in the output subfolder.
+To use this project to create a Readme you must be in the terminal for the ReadMeMagic folder. In the terminal type node index.js and enter. Respond to each prompted question, to select the License use the arrow keys to highlight the appropriate license and hit enter. The generated ReadMe will be located in the output subfolder. Note that this file is overwritten each time the generator is ran. If you want to save the generated ReadMe it needs to be moved to another file or renamed. 
 
 A video walk-through of using this Readme Generator is available at - 
 https://drive.google.com/file/d/1_uHWFezYDImRfK_VztBalU2Gwo6RxY7_/view?usp=sharing
